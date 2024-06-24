@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o header */
+header {
+    height: 90px;
+    background-color: #9AB87A;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Estilos para a container da imagem e texto */
+.imageHeader-container {
+    display: flex; /* Faz com que os elementos dentro dela sejam exibidos em linha */
+    align-items: center; /* Centraliza os itens verticalmente */
+    
+}
+
+.imageHeader-container img {
+    max-width: 20%; /* Garante que a imagem não ultrapasse a largura máxima do contêiner */
+}
+
+.textHeader-container {
+    margin-left: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.textHeader-container h3 {
+    font-size: 24px; /* Tamanho da fonte do h3 SOS */
+   
+}
+#sos-heading {
+    margin-left: 30%;
+}
+
+.info-sintomas{
+    background-color: #C1C1C1;
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top:20%;
+}
+.info-sintomas h1{
+    text-align: center;
+}
+#sintomas{
+    color: white;
+}
+.info-sintomas p{
+    font-size: x-large;
+    color: white;
+}
+
+.info-sintomas a {
+    display: block;
+    text-align: center; 
+    font-size: x-large;
+    color: black;
+
+}
+
+footer {
+    background-color: #9AB87A;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 115%;
+}
+ 
+
