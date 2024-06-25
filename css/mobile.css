@@ -67,7 +67,53 @@ footer {
     background-color: #9AB87A;
     text-align: center;
     padding: 10px 0;
-    margin-top: 100%;
+    margin-top: 90%;
 }
  
 
+.item{
+    height: 300px;
+   width: 95%;
+    margin-top: 30%;
+    margin-left: 2.5%;
+    background-color: black;
+    
+}
+#item-1 {
+    background-color:#B0AEAE; 
+    text-align: center;
+}
+#item-1 img{
+    width: 60%;
+    height: 50%;
+    opacity: 0.4;
+    position: absolute;
+    margin-top: 15%;
+    
+}
+#item-1 p{
+    font-size: x-large;
+    position: absolute;
+    margin-top: 15%;
+    
+}
+
+#item-2 {
+    background-color: #EB8221; 
+}
+
+#item-3 {
+    background-color: #3CF3D2; 
+}
+
+#item-4 {
+    background-color:gainsboro; 
+}
+
+#item-5 {
+    background-color: purple; 
+}
+
+#item-6 {
+    background-color: orange; 
+}
