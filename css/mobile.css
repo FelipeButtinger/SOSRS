@@ -1,37 +1,41 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    background-color: #EEE5E9;
+}
 
-/* Estilos para o header */
+
 header {
     height: 90px;
     background-color: #9AB87A;
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center; 
+    align-items: center;
+    filter: drop-shadow(1px 1px 2px #000000);
+    border-radius: 2px;
 }
 
-/* Estilos para a container da imagem e texto */
+
 .imageHeader-container {
-    display: flex; /* Faz com que os elementos dentro dela sejam exibidos em linha */
-    align-items: center; /* Centraliza os itens verticalmente */
+    display: flex; 
+    align-items: center; 
     
 }
 
 .imageHeader-container img {
-    max-width: 20%; /* Garante que a imagem não ultrapasse a largura máxima do contêiner */
+    max-width: 20%; 
 }
 
 .textHeader-container {
-    margin-left: 20px; /* Espaçamento entre a imagem e o texto */
+    margin-left: 20px;
 }
 
 .textHeader-container h3 {
-    font-size: 24px; /* Tamanho da fonte do h3 SOS */
-   
+    font-size: 24px; 
 }
 #sos-heading {
     margin-left: 30%;
@@ -43,16 +47,18 @@ header {
     height: 200px;
     margin-left: 5%;
     margin-top:20%;
+    border-radius: 2px;
 }
 .info-sintomas h1{
     text-align: center;
 }
 #sintomas{
-    color: white;
+    color: white; 
 }
 .info-sintomas p{
     font-size: x-large;
     color: white;
+    text-align: center;
 }
 
 .info-sintomas a {
@@ -67,20 +73,41 @@ footer {
     background-color: #9AB87A;
     text-align: center;
     padding: 10px 0;
-    margin-top: 90%;
+    margin-top: 15%;
+    border-radius: 2px;
+    height: 50px;
 }
  
 
 .item{
     height: 300px;
    width: 95%;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 2.5%;
     background-color: black;
     border-color: rgb(75, 75, 75);
     border-style: solid;
     border-width: 0.1cm;
+
     
+    border-radius: 3px;
+}
+.item p{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 3%;
+    text-align: center;
+    margin-right: 2%;
+    
+}
+.item a{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    margin-top: 45%;
+    margin-left: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 #item-1 {
     background-color:#B0AEAE; 
@@ -91,13 +118,7 @@ footer {
     height: 50%;
     opacity: 0.4;
     position: absolute;
-    margin-top: 15%;
-    
-}
-.item p{
-    font-size: x-large;
-    position: absolute;
-    margin-top: 3%;
+    margin-top: 22%;
     
 }
 
@@ -105,54 +126,54 @@ footer {
     background-color: #EB8221; text-align: center;
 }
 #item-2 img{
-    width: 60%;
-    height: 50%;
+    width: 80%;
+    height: 90%;
     opacity: 0.4;
     position: absolute;
     margin-top: 15%;
-    
+    transform: rotate(310deg);
 }
 #item-3 {
-    background-color: #3CF3D2; text-align: center;
+    background-color: cornflowerblue; text-align: center;
 }
 #item-3 img{
     width: 60%;
     height: 50%;
     opacity: 0.4;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 25%;
     
 }
 #item-4 {
-    background-color:gainsboro; text-align: center;
+    background-color: firebrick; text-align: center;
 }
 #item-4 img{
     width: 60%;
     height: 50%;
     opacity: 0.4;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 25%;
     
 }
 #item-5 {
-    background-color: purple; text-align: center;
+    background-color: gold; text-align: center;
 }
 #item-5 img{
     width: 60%;
     height: 50%;
     opacity: 0.4;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 25%;
     
 }
 #item-6 {
-    background-color: orange; text-align: center;
+    background-color: darkolivegreen; text-align: center;
 }
 #item-6 img{
     width: 60%;
     height: 50%;
     opacity: 0.4;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 25%;
     
 }
