@@ -39,6 +39,31 @@ header {
 #sos-heading {
     margin-left: 30%;
 }
-h1{
-    color: aqua;
+
+main h3{
+    text-align: center;
 }
+
+main div{
+    margin-top: 6%;
+    text-align: center;
+    border-bottom: #000000;
+    border: 1px;
+    
+}
+.resultado{
+    text-align: center;border-bottom: #000000;
+    border: 1px;
+}
+#btnFinalizar{
+    margin-top: 6%;
+
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* transição suave */
+}
+
+/*button:hover {
+    background-color: #0056b3;
+}muda cor ao passar o mouse*/
