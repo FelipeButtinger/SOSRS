@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #EEE5E9;
+}
+
+
+header {
+    height: 90px;
+    background-color: #9AB87A;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    filter: drop-shadow(1px 1px 2px #000000);
+    border-radius: 2px;
+}
+
+
+.imageHeader-container {
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.imageHeader-container img {
+    max-width: 20%; 
+}
+
+.textHeader-container {
+    margin-left: 20px;
+}
+
+.textHeader-container h3 {
+    font-size: 24px; 
+}
+#sos-heading {
+    margin-left: 30%;
+}
+
+footer {
+    background-color: #9AB87A;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 15%;
+    border-radius: 2px;
+    height: 50px;
+}
+.texto{
+ color: aqua;
+ font-size: xx-large;
+}
+
+/*button:hover {
+    background-color: #0056b3;
+}muda cor ao passar o mouse*/
