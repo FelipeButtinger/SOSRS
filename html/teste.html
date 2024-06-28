@@ -13,8 +13,9 @@
 <body class="container">
  
   <header>
+    <script src="../js/diagnostico.js"></script>
     <div class="imageHeader-container">
-      <img src="../img/RS 1.png" alt="sada">
+      <img src="../img/RS 1.png" alt="sada">                      
       <div class="textHeader-container">
         <h3 id="sos-heading">SOS</h3>
         <h3>ENCHENTES</h3>
@@ -30,83 +31,86 @@
         <div class="item" id="item-1">
             <h1>Sintomas Gerais</h1>
             <h3><b>-Sintomas Gerais- 1/7</b></h3>
-            Dor de Cabeca: <input type="checkbox" value="dorDeCabeca"> <br />
-            Vomitos: <input type="checkbox" value="vomitos"> <br />
-            Diarreia: <input type="checkbox" value="diarreia"> <br />
-            Febre alta: <input type="checkbox" value="febreAlta"> <br />
-            Dificuldades para respirar: <input type="checkbox" value="dificuldadesParaRespirar"> <br />
-            <span>Dor Muscular:</span> <input type="checkbox" value="dorMuscular"> <br />
-            Perda de Apetite: <input type="checkbox" value="perdaDeApetite"> <br />
+            <span>Dor de Cabeça:</span> <input type="checkbox" value="dorDeCabeca"> <br />
+        <span>Vômitos:</span> <input type="checkbox" value="vomitos"> <br />
+        <span>Diarreia:</span> <input type="checkbox" value="diarreia"> <br />
+        <span>Febre alta:</span> <input type="checkbox" value="febreAlta"> <br />
+        <span>Dificuldades para respirar:</span> <input type="checkbox" value="dificuldadesParaRespirar"> <br />
+        <span>Dor Muscular:</span> <input type="checkbox" value="dorMuscular"> <br />
+        <span>Perda de Apetite:</span> <input type="checkbox" value="perdaDeApetite"> <br />
+  
         </div>
         <div class="item" id="item-2">
             <h1>Tétano</h1>
             <div id="tetano">
-                <h3><b>-Sintomas tetano- 3/7</b></h3>
-                Contracoes musculares dolorosas: <input type="checkbox" value="contracoesMuscularesDolorosas"> <br />
-                Febre: <input type="checkbox" value="febre"> <br />
-                Sudorese: <input type="checkbox" value="sudorese"> <br>
-                Pressao alta: <input type="checkbox" value="pressaoAlta"> <br />
-              </div>
-        </div>
-        <div class="item" id="item-3">
-            <h1>Diarréia Agúda</h1>
-            <div id="DiarreiaAguda">
-                <h3><b>-Sintomas Diarreia Aguda- 5/7</b></h3>
-                Sangramento nas fezes: <input type="checkbox" value="sangramentoNasFezes"> <br />
-                Sangramentos: <input type="checkbox" value="sangramentos"> <br />
-                Calafrios: <input type="checkbox" value="calafrios"> <br />
-                Olhos Vermelhos: <input type="checkbox" value="olhosVermelhos"> <br />
-              </div>
-        </div>
-        <div class="item" id="item-4">
-            <h1>Hepatite a</h1>
-            <div id="Hepatite A">
-                <h3><b>-Sintomas Hepatite a- 4/7</b></h3>
-                Fadiga: <input type="checkbox" value="fadiga"> <br />
-                Urina Escura: <input type="checkbox" value="urinaEscura"> <br />
-                Fezes claras: <input type="checkbox" value="fezesClaras"> <br>
-                Ictericia(amarelao pelo corpo): <input type="checkbox" value="ictericia"> <br />
-              </div>
-        </div>
-        <div class="item" id="item-5">
-            <h1>Dengue</h1>
-            <div id="Dengue">
-                <h3><b>-Sintomas Dengue- 6/7</b></h3>
-                Erupcoes cutaneas: <input type="checkbox" value="erupcoesCutaneas"> <br />
-                Dores nas articulacoes: <input type="checkbox" value="doresNasArticulacoes"> <br />
-                Hemorragia Intensa: <input type="checkbox" value="hemorragiaIntensa"> <br>
-                Rubor(vermelhidao): <input type="checkbox" value="rubor"> <br />
-              </div>
-        </div>
-        <div class="item" id="item-6">
-            <h1>Animais Peçonhentos</h1>
-            <div id="Animais">
-                <h3><b>-ocasionados por animais peconhentos- 7/7</b></h3>
-                Dor imediata: <input type="checkbox" value="dorImediata"> <br />
-                Infeccao e necrose na regiao da picada: <input type="checkbox" value="infeccaoNecrosePicada"> <br />
-                Diminuicao os batimentos cardiacos: <input type="checkbox" value="diminuicaoBatimentosCardiacos"> <br>
-                Queda da pressao arterial: <input type="checkbox" value="quedaPressaoArterial"> <br />
-                Formigamento e suor no Local: <input type="checkbox" value="formigamentoSuorLocal"> <br />
-                Bolhas: <input type="checkbox" value="bolhas"> <br />
-                Eritema: <input type="checkbox" value="eritema"> <br />
-                Hematomas: <input type="checkbox" value="hematomas"> <br />
-              </div>
-        </div>
-        <div class="item" id="item-7">
-            <h1>Leptospirose</h1>
-            <div id="leptospirose">
-                <h3><b>-Sintomas Leptospirose- 2/7</b></h3>
-                Sangramentos: <input type="checkbox" value="sangramentos"> <br />
-                Calafrios: <input type="checkbox" value="calafrios"> <br />
-                Olhos Vermelhos: <input type="checkbox" value="olhosVermelhos"> <br />
-              </div>
+                <h3><b>-Sintomas tétano- 3/7</b></h3>
+                <span>Contrações musculares dolorosas:</span> <input type="checkbox" value="contracoesMuscularesDolorosas"> <br />
+                <span>Febre:</span> <input type="checkbox" value="febre"> <br />
+                <span>Sudorese:</span> <input type="checkbox" value="sudorese"> <br />
+                <span>Pressão alta:</span> <input type="checkbox" value="pressaoAlta"> <br />
+                </div>
+                </div>
+                <div class="item" id="item-3">
+                  <h1>Diarréia Agúda</h1>
+                  <div id="DiarreiaAguda">
+                    <h3><b>-Sintomas Diarreia Aguda- 5/7</b></h3>
+                    <span>Sangramento nas fezes:</span> <input type="checkbox" value="sangramentoNasFezes"> <br />
+                    <span>Sangramentos:</span> <input type="checkbox" value="sangramentos"> <br />
+                    <span>Calafrios:</span> <input type="checkbox" value="calafrios"> <br />
+                    <span>Olhos Vermelhos:</span> <input type="checkbox" value="olhosVermelhos"> <br />
+                  </div>
+                </div>
+                <div class="item" id="item-4">
+                  <h1>Hepatite A</h1>
+                  <div id="HepatiteA">
+                    <h3><b>-Sintomas Hepatite A- 4/7</b></h3>
+                    <span>Fadiga:</span> <input type="checkbox" value="fadiga"> <br />
+                    <span>Urina Escura:</span> <input type="checkbox" value="urinaEscura"> <br />
+                    <span>Fezes claras:</span> <input type="checkbox" value="fezesClaras"> <br />
+                    <span>Icterícia (amarelão pelo corpo):</span> <input type="checkbox" value="ictericia"> <br />
+                  </div>
+                </div>
+                <div class="item" id="item-5">
+                  <h1>Dengue</h1>
+                  <div id="Dengue">
+                    <h3><b>-Sintomas Dengue- 6/7</b></h3>
+                    <span>Erupções cutâneas:</span> <input type="checkbox" value="erupcoesCutaneas"> <br />
+                    <span>Dores nas articulações:</span> <input type="checkbox" value="doresNasArticulacoes"> <br />
+                    <span>Hemorragia Intensa:</span> <input type="checkbox" value="hemorragiaIntensa"> <br />
+                    <span>Rubor (vermelhidão):</span> <input type="checkbox" value="rubor"> <br />
+                  </div>
+                </div>
+                <div class="item" id="item-6">
+                  <h1>Animais Peçonhentos</h1>
+                  <div id="Animais">
+                    <h3><b>-Ocasionados por animais peçonhentos- 7/7</b></h3>
+                    <span>Dor imediata:</span> <input type="checkbox" value="dorImediata"> <br />
+                    <span>Infecção e necrose na região da picada:</span> <input type="checkbox" value="infeccaoNecrosePicada"> <br />
+                    <span>Diminuição dos batimentos cardíacos:</span> <input type="checkbox" value="diminuicaoBatimentosCardiacos">
+                    <br />
+                    <span>Queda da pressão arterial:</span> <input type="checkbox" value="quedaPressaoArterial"> <br />
+                    <span>Formigamento e suor no local:</span> <input type="checkbox" value="formigamentoSuorLocal"> <br />
+                    <span>Bolhas:</span> <input type="checkbox" value="bolhas"> <br />
+                    <span>Eritema:</span> <input type="checkbox" value="eritema"> <br />
+                    <span>Hematomas:</span> <input type="checkbox" value="hematomas"> <br />
+                  </div>
+                </div>
+                <div class="item" id="item-7">
+                  <h1>Leptospirose</h1>
+                  <div id="leptospirose">
+                    <h3><b>-Sintomas Leptospirose- 2/7</b></h3>
+                    <span>Sangramentos:</span> <input type="checkbox" value="sangramentos"> <br />
+                    <span>Calafrios:</span> <input type="checkbox" value="calafrios"> <br />
+                    <span>Olhos Vermelhos:</span> <input type="checkbox" value="olhosVermelhos"> <br />
+                  </div>
         </div>
         
-        <style>
-
-        </style>
+        
     </div>
-
+    <div class="resultado">
+      <button id="btnFinalizar">Finalizar</button>
+    
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
