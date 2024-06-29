@@ -37,10 +37,17 @@ header {
     font-size: 24px; 
 }
 #sos-heading {
-    margin-left: 30%;
+    margin-left: 3%;
 }
 
+
 h3{
+    text-align: center;
+    font-size: 140%;
+}
+h2{
+    margin-top: 10%;
+    font-size: 180%;
     text-align: center;
 }
 
@@ -150,6 +157,9 @@ footer {
 }
 p{
     font-size: x-large;
+}
+hr{
+    margin-top: 10%;
 }
 /*button:hover {
     background-color: #0056b3;

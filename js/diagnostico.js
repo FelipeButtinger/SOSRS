@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const diagnosticos = [];
 
-        // Cálculo da probabilidade para cada doença
+        // Cálculo que quantifica as chances de possuir alguma doença, depois essas chances são definidas com conceitos para facilitar compreensão.
         for (const [doenca, info] of Object.entries(doencas)) {
             const sintomas = info.sintomas;
             const sintomasComuns = sintomas.filter(sintoma => sintomasMarcados.includes(sintoma));
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Exibir os resultados
+        // Envia os resultados pra mesma dive que consta o botão finalizr
         const resultadoDiv = document.querySelector('.resultado');
         resultadoDiv.innerHTML = diagnosticos.map(d => `<p>${d}</p>`).join('');
     });
