@@ -60,3 +60,30 @@ footer {
 .Titulo h1{
 margin-bottom: 3%;
 }
+.redirecionar{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    text-align: center;
+}
+.redirecionar a{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 120%;
+    color: #255c32;
+}
+
+main p{
+    margin-right: 3%;
+    margin-left: 2%;
+    font-size: large;
+}
+main h2{
+    text-align: center;
+}
+#sintomas h2{
+    margin-top: 6%;
+}
+ul{
+    margin-left: 10px;
+}
+
