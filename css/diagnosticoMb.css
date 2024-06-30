@@ -70,9 +70,20 @@ footer {
     background-color: #9AB87A;
     text-align: center;
     padding: 10px 0;
-    margin-top: 15%;
     border-radius: 2px;
     height: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 16px;
 }
 .item{
     height: 300px;
@@ -183,3 +194,29 @@ p{
 /*button:hover {
     background-color: #0056b3;
 }muda cor ao passar o mouse*/
+
+.resultado {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 10%;
+}
+
+.resultado p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.resultado a {
+    color: #007bff;
+  
+    text-decoration: none;
+    
+}
+
+
