@@ -5,6 +5,9 @@
 }
 .container{
     background-color: #EEE5E9;
+    
+    
+    
 }
 
 
@@ -86,4 +89,33 @@ main h2{
 ul{
     margin-left: 10px;
 }
+ol {
+    list-style-type: none;
+    counter-reset: li;text-align: left;
+}
 
+li {
+    font-size: 1.5rem;
+}
+
+li:before {
+    counter-increment: li;
+    content: counter(li, decimal-leading-zero);
+    color: red;
+    margin-right: 0.25em;
+}
+#transmissao{
+    margin-top: 6%;
+}
+.escala{
+    width: 90%;
+    height: auto;
+  
+}
+.escala-container {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+}
