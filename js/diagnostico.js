@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 link: "tetano.html"
             },
             "Diarréia Aguda": {
-                sintomas: ["sangramentoNasFezes", "sangramentos", "calafrios", "olhosVermelhos"],
+                sintomas: ["sangramentoNasFezes", "muco", "doresAbdominais"],
                 link: "diarreiaAguda.html"
             },
             "Hepatite A": {
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 link: "hepatiteA.html"
             },
             "Dengue": {
-                sintomas: ["febreAlta", "dorMuscular", "erupcoesCutaneas", "doresNasArticulacoes", "hemorragiaIntensa", "dificuldadesParaRespirar", "rubor", "dorDeCabeca", "vomitos", "diarreia"],
+                sintomas: ["febreAlta", "dorMuscular", "erupcoesCutaneas", "doresNasArticulacoes", "hemorragiaIntensa", "dificuldadesParaRespirar", "rubor", "dorDeCabeca", "vomitos", "diarreia", "edema"],
                 link: "dengue.html"
             },
             "Animais Peçonhentos": {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const sintomas = info.sintomas;
             const sintomasComuns = sintomas.filter(sintoma => sintomasMarcados.includes(sintoma));
             if (sintomasComuns.length > 0) {
-                const nivel = (sintomasComuns.length / sintomas.length) * 100;
+                const nivel = (sintomasComuns.length / sintomas.length) * 100;          
 
                 let diagnostico;
                 if (nivel < 25) {

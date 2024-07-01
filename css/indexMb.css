@@ -70,11 +70,23 @@ header {
 
 footer {
     background-color: #9AB87A;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 10px 0;
     margin-top: 15%;
     border-radius: 2px;
     height: 50px;
+}
+
+footer a {
+    display: inline-block;
+    height: 100%;
+}
+
+.footer-logo {
+    height: 100%;
+    width: auto;
 }
  
 
@@ -176,3 +188,4 @@ footer {
     margin-top: 25%;
     
 }
+

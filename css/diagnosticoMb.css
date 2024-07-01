@@ -58,14 +58,7 @@ main div{
     text-align: center;border-bottom: #000000;
     border: 1px;
 }
-#btnFinalizar{
-    margin-top: 6%;
 
-    padding: 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* transição suave */
-}
 footer {
     background-color: #9AB87A;
     text-align: center;
@@ -165,8 +158,13 @@ p{
     font-size: x-large;
 }
 
-
-/* CSS */
+#btnFinalizar {
+    margin-top: 6%;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 #btnFinalizar{
     align-items: center;
     background:content #146e39;
@@ -203,7 +201,7 @@ p{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-    margin-bottom: 10%;
+    margin-bottom: 1    0%;
 }
 
 .resultado p {
