@@ -158,7 +158,9 @@
     #tratamento {
         margin-bottom: 20%
     }
-
+    #tratamento  {
+        text-align: center;
+    }
     html {
         scroll-behavior: smooth;
     }
