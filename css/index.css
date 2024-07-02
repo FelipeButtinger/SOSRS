@@ -47,10 +47,10 @@
     .info-sintomas {
         /*Div de pequeno texto */
         background-color: #C1C1C1;
-        width: 90%;
+        width: 60%;
         height: 250px;
-        margin-left: 5%;
-        margin-top: 12%;
+        margin-left: 20%;
+        margin-top: 5%;
         border-radius: 2px;
     }
 
@@ -85,7 +85,7 @@
         /*espaça corretamente*/
         align-items: center;
         padding: 10px 0;
-        margin-top: 15%;
+        margin-top: 5%;
         border-radius: 2px;
         height: 80px;
     }
@@ -103,10 +103,10 @@
 
 
     .item {
-        /*Todas as divs do carrossel de painés*/
+        /*Todas as divs do carrossel de painéis*/
         height: 600px;
-        width: 90%;
-        margin: 10% auto 0;
+        width: 60%;
+        margin: 5% auto 0;
         background-color: black;
         border-color: rgb(75, 75, 75);
         border-style: solid;
@@ -115,7 +115,7 @@
 
         border-radius: 3px;
     }
-
+ /*Ajustes dentro dos painéis*/
     .item h1 {
         font-size: 55px;
     }
@@ -125,18 +125,18 @@
         position: absolute;
         margin-top: 3%;
         text-align: center;
-        margin-right: 2%;
+        margin-right: 20%;
 
     }
 
-    .item a {
+    .item a {/*Link para cada página*/
         position: absolute;
         font-size: 45px;
         color: black;
-        margin-top: 35%;
+        margin-top: 15%;
         margin-left: 25%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+       
     }
 
     /*Ajustes específicos de cada painel*/
@@ -161,11 +161,11 @@
     }
 
     #item-2 img {
-        width: 70%;
-        height: 90%;
-        opacity: 0.4;
-        position: absolute;
-        margin-top: 4%;
+        width: 50%;
+            height: 80%;
+            opacity: 0.4;
+            position: absolute;
+            margin-top: 8%;
         transform: rotate(310deg);
     }
 
@@ -175,11 +175,11 @@
     }
 
     #item-3 img {
-        width: 60%;
-        height: 50%;
-        opacity: 0.4;
-        position: absolute;
-        margin-top: 13%;
+        width: 30%;
+            height: 50%;
+            opacity: 0.4;
+            position: absolute;
+            margin-top: 8%;
 
     }
 
@@ -189,11 +189,11 @@
     }
 
     #item-4 img {
-        width: 60%;
+        width: 30%;
         height: 50%;
         opacity: 0.4;
         position: absolute;
-        margin-top: 14%;
+        margin-top: 8%;
 
     }
 
@@ -203,11 +203,11 @@
     }
 
     #item-5 img {
-        width: 60%;
+    width: 30%;
         height: 50%;
         opacity: 0.4;
         position: absolute;
-        margin-top: 15%;
+        margin-top: 8%;
 
     }
 
@@ -217,11 +217,11 @@
     }
 
     #item-6 img {
-        width: 60%;
-        height: 50%;
-        opacity: 0.4;
-        position: absolute;
-        margin-top: 13%;
+        width: 30%;
+            height: 50%;
+            opacity: 0.4;
+            position: absolute;
+            margin-top: 8%;
 
     }
 }
